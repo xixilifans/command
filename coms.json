@@ -4,7 +4,9 @@
 /server/172.20.20.205
 /server/52.142.37.135
 /server/172.20.21.215
+/server/172.20.21.108
 /server/20.204.66.253
+/server/157.175.126.1
 /command/actClearMatchingQueue
 /command/actMoveToMaincity
 /command/addAccountToWhiteList
@@ -29,6 +31,7 @@
 /command/batchForbiddenOperate
 /command/cancelBanGuildDeclareWar
 /command/cancelWSBroadcastEvent
+/module/CBL:show
 /command/cblcompetition
 /server/172.20.20.122:8004
 /command/changeAccountVipInfo
@@ -180,10 +183,14 @@
 /command/gmCreateCBLPlayerAccountAndCharacter
 /command/gmGetAutoPunishParameters
 /command/gmGetClosingBroadcastEvent
+/command/gmGetShiftedWorkdayAndHolidayDate
 /command/gmRemoveAccountFromNoNeedRealnameTable
 /command/gmRemoveAccountFromNoWaitTable
 /command/gmSetAutoPunishParameters
 /command/gmSetClosingBroadcastEvent
+/module/gmInstruction:show
+/module/gmoperation:show
+/module/HotfixScript:show
 /command/initializePracticeLevelList
 /command/kickWSAllPlayers
 /command/kickWSPlayers
@@ -194,6 +201,7 @@
 /command/modifyLegionExpRatio
 /command/modifyMoneyRatio
 /command/modifyPassExpRatio
+/module/npccontrol:show
 /command/openActivity
 /command/openGlobalChatTranslateEnabled
 /command/openGlobalPracticeMode
@@ -213,6 +221,7 @@
 /command/queryMongoLog
 /command/recoverCharacterItem
 /command/recoverDeletedCharacter
+/module/RegionControl:show
 /command/removeAccountFromWhiteList
 /command/removeCharacterFreeGold
 /command/removeCharacterGold
@@ -313,6 +322,7 @@
 /command/terminateGame
 /command/test
 /command/tryShutdownGameServer
+/module/TwitchDrop:show
 /command/unForbiddenWSAccounts
 /command/updateForbiddenWSCharacters
 /command/UpdateGagWSCharacters
@@ -323,6 +333,7 @@
 /command/uploadChatTranslateCSVFile
 /command/uploadHotpatch
 /command/UploadMatchPoolConfigFile
+/module/complainManagement:show
 /permission/user:edit
 /permission/dept:edit
 /permission/role:edit
@@ -335,8 +346,12 @@
 /auth-system/menu:del
 /auth-system/dataPerm:del
 /auth-system/domain:del
+/module/basedata:show
 /server/172.20.10.109:32762
+/module/clientControl:show
+/module/guildNation:show
 
+/module/logQuery:show
 
 /permission/user:show
 /permission/dept:show
@@ -350,9 +365,15 @@
 /auth-system/menu:add
 /auth-system/dataPerm:add
 /auth-system/domain:add
+/module/gameManagement:show
+/module/playerInfos:show
+
+/module/LoginControl:show
+/module/giftCode:show
 
 
 
 
+/module/email:show
 
 
