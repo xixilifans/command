@@ -43,3 +43,12 @@ func main() {
 		fmt.Println(string(a))
 	}
 }
+
+func testStash() {
+	fmt.Println("just for fun!")
+
+}
+
+func testforpop() {
+	fmt.Println("fffsss")
+}
