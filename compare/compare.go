@@ -45,10 +45,11 @@ func main() {
 }
 
 func testStash() {
-	fmt.Println("just for fun!")
+	fmt.Println("ccscxxxxx")
+	fmt.Println("just for writestringsssss!")
 
 }
 
 func testforpop() {
-	fmt.Println("fffsss")
+	fmt.Println("fffsssaaaa")
 }
